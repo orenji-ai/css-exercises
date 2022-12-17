@@ -2,10 +2,16 @@ p {
     background-color: rgb(241, 169, 169);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #number2 {
     color: blue;
     font-size: 36px;
 }
+
+.number3{
+font-size: 24px;
+}
+
 #number4 {
     background-color: rgb(119, 235, 119);
     font-size: 24px;
