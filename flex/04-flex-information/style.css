@@ -10,41 +10,35 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*solution*/
+
+  /*flexes title, centers, and adds 32px margin between title and items*/
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
 }
 
-.barberry {
+/* container to flex, center, and arrange items horizontally*/
+.plants {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-direction: row;
+}
+
+/*edits and stylizes each item*/
+.barberry,
+ .chili,
+ .pepper,
+  .saffron {
   width: 200px;
   padding: 52px;
 }
 
-.chili {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 200px;
-  padding: 52px;
-}
-
-.pepper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 200px;
-  padding: 52px;
-}
-
-.saffron {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 200px;
-  padding: 52px;
+/*aligns the text and wraps it using white-space and word wrap (flex-wrap equivalent)*/
+.text {
+text-align: center;
+white-space: pre-wrap;
+word-wrap: break-word;
 }
 
 /* do not edit this footer */
