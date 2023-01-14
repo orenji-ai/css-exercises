@@ -23,6 +23,7 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  text-align: center;
 }
 
 /*edits and stylizes each item*/
