@@ -16,19 +16,35 @@ img {
 }
 
 .barberry {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 52px;
 }
 
 .chili {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 52px;
 }
 
 .pepper {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 52px;
 }
 
 .saffron {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 52px;
 }
 
 /* do not edit this footer */
